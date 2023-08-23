@@ -15,4 +15,5 @@ print(paste("Media de camareros:", media_camareros))
 print(paste("Media de ganancias:", media_ganancias))
 print(paste("Covarianza entre camareros y ganancias:", covarianza))
 
-
+correlacion <- cor(camareros_noche, ganancias_noche)
+print(paste("Coeficiente de correlación entre camareros y ganancias:", correlacion))
